@@ -3,7 +3,7 @@
 describe("Book an appointment at the hairdresser", () => {
   beforeEach(() => {
     // As the user I start by clicking the hairdressing field and i enter this place on the site
-    cy.visit("/companies/hairstyling?");
+    cy.visit("/companies/hairstyling");
   });
 
   it("Finding a hairdresser close to the office and booking it, then cancel the booking", () => {
